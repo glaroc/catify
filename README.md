@@ -9,4 +9,4 @@ To install,
 3. Click on Load temporary extension
 4. Go to the location of the manifest.json file from this repository.
 
-Going to websites like cnn.com or nytimes.com, you should now see pictures of cats instead of Donald.
+Going to websites like cnn.com or nytimes.com, you should now see pictures of cats instead of Donald. You can add more websites in the manifest.json matches section.
