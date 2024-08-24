@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "Catify",
+  "version": "0.1",
+
+  "description": "Turn pictures of Trump into pictures of cats",
+
+  "icons": {
+    "48": "icons/cat.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.lapresse.ca/*",
+        "*://*.cnn.com/*",
+        "*://*.nytimes.com/*",
+        "*://*.msnbc.com/*",
+        "*://*.radio-canada.ca/*",
+        "*://*.usatoday.com/*",
+        "*://*.tvanouvelles.ca/*",
+        "*://*.newsweek.com/*",
+        "*://*.foxnews.com/*",
+        "*://*.msn.com/*",
+        "*://*.journaldemontreal.com/*"
+      ],
+      "js": ["jquery/jquery-3.7.1.slim.min.js", "catify.js"]
+    }
+  ]
+}
