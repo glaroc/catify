@@ -4,7 +4,7 @@
 
 To install,
 
-1. Pull this reposiry
+1. Pull this repository
 2. Open Firefox and got to `about:debugging#/runtime/this-firefox`
 3. Click on Load temporary extension
 4. Go to the location of the manifest.json file from this repository.
